@@ -21,6 +21,7 @@ public class Program {
 		System.out.println(p2); 
 		System.out.println(p3); 
 		
+		em.getTransaction().commit();
 		System.out.println("Pronto!");
 		em.close();
 		emf.close();
